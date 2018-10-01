@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  sh '/home/tribes/apache-jmeter-5.0/bin/jmeter.sh -n -t /home/tribes/Search Functionality TP.jmx -l test.jtl'
+}
